@@ -1,0 +1,15 @@
+{
+    "en": {
+      "saludo": "Hello",
+      "titulo": "Welcome to our website!"
+    },
+    "es": {
+      "saludo": "Hola",
+      "titulo": "¡Bienvenido a nuestro sitio web!"
+    },
+    "it": {
+      "saludo": "Oi",
+      "titulo": "Benvenuti sul nostro sito web!"
+    }
+}
+  

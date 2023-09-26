@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    include("view/alta.php");  
+    include_once("view/alta.php");  
     ?>
 </body>
-</html>--
+</html>

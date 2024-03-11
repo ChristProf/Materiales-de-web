@@ -11,4 +11,8 @@ try {
 header('Content-type: application/json; charset=utf-8');
 echo json_encode($result);
 
+echo "<table>";
+echo "<tr>";
+echo "<th>".$row["cedula"]."</tr>";
+
 ?>

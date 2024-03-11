@@ -6,5 +6,4 @@
     <label for="tel">Telefono</label>
     <input type="text" name="tel" id="tel">
     <br>
-    <input type="submit"></input>
 </form>

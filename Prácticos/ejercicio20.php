@@ -6,11 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="GET" action="ejercicio20resp.php">
+    <form method="POST" action="ejercicio20resp.php">
         <label for="nombre">Nombre:</label><br>
         <input type="text" id="nombre" name="nombre"><br>
         <label for="apellido">Apellido:</label><br>
         <input type="text" id="apellido" name="apellido">
+        <br>
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad">
         <input type="submit" value="Enviar">
     </form>
 </body>

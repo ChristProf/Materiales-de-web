@@ -1,5 +1,6 @@
 <?php  
-    $nombre=$_GET['nombre'];
-    $apellido=$_GET['apellido'];
+    $nombre=$_POST['nombre'];
+    $apellido=$_POST['apellido'];
+    $edad=$_POST['edad'];
 
-    echo 'Su nombre es: '.$nombre.' y su apellido es: '.$apellido.'.';
+    echo 'Su nombre es: '.$nombre.', su apellido es: '.$apellido.' y su edad es: '.$edad;

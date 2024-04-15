@@ -6,6 +6,6 @@
     } else {
         $mensaje = "El texto '$texto' no fue encontrado en el archivo.";
     }
-
     echo $mensaje;
+    
 ?>

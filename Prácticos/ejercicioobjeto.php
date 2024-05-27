@@ -1,15 +1,10 @@
 <?php 
     include 'ejercicioclase.php';
 
-    $ejemplo = new Clase;
+    $ejemplo = new Clase(23, 'Juan', 'Perez');
 
-    $ejemplo->setEdad(34);
-    echo "Su edad es ".$ejemplo->getEdad();
-    
-
-
-
-
-
+    echo "<br>Su edad es ".$ejemplo->getEdad();
+    echo "<br>Su nombre es ".$ejemplo->getNombre();
+    echo "<br>Su apellido es ".$ejemplo->getApellido();
 
 ?>

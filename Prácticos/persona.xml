@@ -1,0 +1,24 @@
+<xml>
+<persona>
+    <nombre>
+        Juan
+    </nombre>
+    <altura>
+        250
+    </altura>
+    <edad>
+        14
+    </edad>
+    <sexo>
+        M
+    </sexo>
+    <documento>
+        <tipo>
+            cedula
+        </tipo>
+        <numero>
+            12345678
+        </numero>
+    </documento>
+</persona>
+</xml>

@@ -51,6 +51,42 @@
         }
     }
 
+    function esSimetrico($matriz){
+        $eje=count($matriz);
+        $esSimetrico=true;
+        $i=0;
+        $j=0; 
+        do {
+            do {
+                if ($i!=$j) {
+                    if ($matriz[$i][$j] != $matriz[$j][$i]) {
+                        $esSimetrico=false;
+                    }
+                }
+                $j++;
+            } while ($esSimetrico && $j < $eje);
+            $j=0;
+            $i++;
+        } while ($esSimetrico && $i<$eje);
+        return $esSimetrico;            
+    }
+
+    function esSimetrico2($matriz){
+        $eje=count($matriz);
+        for ($i=0; $i < $eje; $i++) { 
+            for ($j=0; $j < $eje; $j++) { 
+                if ($i!=$j) {
+                    if ($matriz[$i][$j] != $matriz[$j][$i]) {
+                        return false;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+
     mostrarDiagonal($matriz);
     echo "<br>";
     sumaMatrices($matriz, $matriz);
+
+

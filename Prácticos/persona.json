@@ -1,0 +1,24 @@
+[ 
+{
+    "nombre" : "Juan",
+    "altura" : "250",
+    "edad" : "14",
+    "sexo" : "M",
+    "documento":{  
+           "tipo" : "cedula",
+           "numero" : "12345678" 
+    }
+},
+
+{
+    "nombre" : "Marcelo",
+    "altura" : "340",
+    "edad" : "7",
+    "sexo" : "M",
+    "documento":{  
+           "tipo" : "cedula",
+           "numero" : "87654312" 
+    }
+}
+
+]

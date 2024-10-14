@@ -1,0 +1,124 @@
+body {
+    background: linear-gradient(135deg, rgb(255, 255, 255), rgb(98, 0, 35));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(98, 0, 35);
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+label {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+button, .btn {
+    background-image: linear-gradient(to right, rgb(255, 255, 255) 50%, rgb(98, 0, 35) 50%);
+    background-size: 200% 100%;
+    background-position: 0 0;
+    color: rgb(98, 0, 35);
+    padding: 15px 30px;
+    margin: 10px 0;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    align-self: center;
+}
+
+button:hover, .btn:hover {
+    background-position: -100% 0;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.table-container {
+    background-color:  rgb(98, 0, 35);
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    display: none;
+}
+
+table {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(33, 147, 176, 0.2);
+}
+
+th {
+    background-color:  rgb(98, 0, 35);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(33, 147, 176, 0.05);
+}
+
+tr:hover {
+    background-color: rgba(33, 147, 176, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+
+
+#mensajeError {
+    color: #dc3545;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
